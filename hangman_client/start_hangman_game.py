@@ -2,7 +2,7 @@ import requests
 
 
 def get_answer_from_hangman_answers():
-    response = requests.get('http://0.0.0.0:5000/v1/get-hangman-answer')
+    response = requests.get('https://0.0.0.0:5001/v1/get-hangman-answer')
     response.raise_for_status()
     return response.json()['answer']
 

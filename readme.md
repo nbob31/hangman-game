@@ -24,22 +24,10 @@ In a new console tab role the following:
 
 # Building and running the hangman-answers image
 1. Build the hangman_answers image
-1. Run the hangman answers image
 ```
-cd hangman_answers
-docker build -t hangman-answers:1.0.0 .
-```
-`docker run --rm -it -p 5000:5000 hangman-answers:1.0.0`
-# Building and running the hangman-client image
-1. Build the hangman_client image
-1. Run the hangman_client image
-```
-cd hangman_client
-docker build -t hangman-client:1.0.0 .
-```
-```
-docker run --rm -it -p 5000:5000 hangman-client:1.0.0
-docker exec -it hangman-game_hangman-client_1 sh 
+docker-compose up
+docker exec -it hangman-game_hangman-client_1 sh
+python start_hangman_game.py 
 ```
 
 ## Running Tests
