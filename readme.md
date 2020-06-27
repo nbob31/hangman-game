@@ -19,10 +19,11 @@ pip install pytest-docker-compose
 ## Running Locally 
 In the console run the following:
 `python hangman_answers/app.py`
+
 In a new console tab role the following:
 `python hangman_client/start_hangman_game.py`
 
-# Building and running the hangman-answers image
+# Runnng the hangman apps with docker-compose
 1. Build the hangman_answers image
 ```
 docker-compose up
