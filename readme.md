@@ -1,7 +1,7 @@
 # Hangman Game
 
 ## Overview
-Hangman Game Utility with two services `hangman-answers` and `hangman-client`
+Hangman game utility with two services `hangman-answers` and `hangman-client`
 
 ## Prerequisites
 - Pyenv
@@ -23,7 +23,7 @@ In the console run the following:
 In a new console tab role the following:
 `python hangman_client/start_hangman_game.py`
 
-# Runnng the hangman apps with docker-compose
+# Running the hangman apps with docker-compose
 1. Build the hangman_answers image
 ```
 docker-compose up
