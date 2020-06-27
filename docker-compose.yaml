@@ -8,9 +8,7 @@ services:
   hangman-client:
     build:
       context: ./hangman_client
-    depends_on:
-      - "hangman-answers"
     environment:
       HANGMAN_ANSWERS_HOST: "hangman-answers"
-    command: sleep 1d
+    command: sleep 5d
 

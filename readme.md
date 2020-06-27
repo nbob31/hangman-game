@@ -42,7 +42,6 @@ docker run --rm -it -p 5000:5000 hangman-client:1.0.0
 docker exec -it hangman-game_hangman-client_1 sh 
 ```
 
-
 ## Running Tests
 1. Ensure that hangman_answers and hangman_client is not running
 ```
